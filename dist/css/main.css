@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+p {
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+.row input {
+	border: 1px solid #047bc0;
+}
+
+.hash-input {
+	position: relative;
+	margin-right: 0;
+}
+
+.hash-calculate, .hash-hmac-calculate {
+	position: absolute;
+	right: 0;
+	top: 25px;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+}
+
+.hash-calculate:hover, .hash-hmac-calculate:hover {
+	background-color: #047bc0;
+	color: #fff;
+}
+
+.hash-calculate span {
+	line-height: 23px;
+	text-align: center;
+}

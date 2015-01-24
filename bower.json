@@ -1,0 +1,24 @@
+{
+  "name": "cryptographic-hash",
+  "version": "0.0.1",
+  "description": "online cryptographic hash",
+  "main": "index.html",
+  "keywords": [
+    "crypto",
+    "hash"
+  ],
+  "authors": [
+    "lanz"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}
