@@ -4,11 +4,6 @@ define(["jquery", "bootstrap", "core", "sha1", "sha256", "sha512", "sha3", "hmac
 
 var html = '<div class="alert alert-info result-content" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>';
 
-/* different length of SHA-3  */
-function selectLength(leng) {
-	length = leng;
-}
-
 /* each ok btn */
 $('.hash-calculate').each(function() {
 	$(this).click(function() {	
